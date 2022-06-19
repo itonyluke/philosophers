@@ -101,7 +101,8 @@ int	main(int argc, char **argv)
 	else
 		return (error_exit("\033[91mInvalid number of arguments.\033[0m\n"
 						   "\033[33mUsage:\n"
-						   "number_of_philosophers time_to_die time_to_eat"
+						   "./philo number_of_philosophers time_to_die "
+						   "time_to_eat"
 						   "time_to_sleep "
 						   "[number_of_times_each_philosopher_must_eat]\033[0m\n"
 						   "Example:\n"
